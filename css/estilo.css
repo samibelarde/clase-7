@@ -2,8 +2,24 @@
     margin: 0;
     padding: 0;
 }
+/*limpie propiedades*/
 a{
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+}
+.navbar{
+    position: fixed;
+    background-color: #f9f9f9;
+    top: 0;
+    height: 80px;
+
+}
+.navbar a{
+    font-size: 14px;
+    line-height: 80px;
+    font-weight: 500px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    letter-spacing: 2px;
 }
